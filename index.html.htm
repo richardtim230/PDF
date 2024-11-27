@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DocView - Document Viewer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="app-header">
+
+        <h1>DocView</h1>
+
+        <p>Upload and view your documents seamlessly.</p>
+
+    </header>
+
+    <main class="app-container">
+
+        <!-- File Upload Section -->
+
+        <div class="upload-area" id="upload-area">
+
+            <input type="file" id="file-input" accept=".txt,.docx,.pdf,.json,.csv">
+
+            <p>Drag & drop a file here or click to upload</p>
+
+        </div>
+
+        <!-- Document Viewer -->
+
+        <div id="viewer" class="viewer hidden">
+
+            <iframe id="pdf-viewer" class="pdf-viewer hidden"></iframe>
+
+            <textarea id="text-viewer" class="text-viewer hidden"></textarea>
+
+            <pre id="code-viewer" class="code-viewer hidden"></pre>
+
+        </div>
+
+    </main>
+
+    <footer class="app-footer">
+
+        <p>DocView &copy; 2024. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
